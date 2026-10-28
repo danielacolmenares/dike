@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dike"
+version = "0.1.0"
+description = "Dike – benchmark di LLM locali per RAG: scegliere il modello con i dati"
+requires-python = ">=3.10"
+dependencies = ["clio"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[tool.setuptools]
+packages = ["dike"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

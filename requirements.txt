@@ -1,0 +1,7 @@
+# Dike usa Clio come libreria.
+# Sviluppo locale con una copia di Clio gia' presente:
+#     pip install -e /percorso/di/clio
+#     pip install pytest
+# (in questo caso la riga seguente si puo' omettere)
+clio @ git+https://github.com/danielacolmenares/clio
+pytest>=8

@@ -1,0 +1,10 @@
+# Risultati dei benchmark (contengono domande e risposte della KB)
+risultati/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
